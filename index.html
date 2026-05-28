@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio and resume of Aleksandra Fedoseeva — Data Analyst" />
+  <title>Aleksandra Fedoseeva — Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a href="#hero" class="nav__logo">
+      <span class="nav__logo-dot"></span>
+      <span data-i18n="nav.logo">Aleksandra F.</span>
+    </a>
+    <nav class="nav__links">
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#experience" data-i18n="nav.experience">Experience</a>
+      <a href="#education" data-i18n="nav.education">Education</a>
+      <a href="#skills" data-i18n="nav.skills">Skills</a>
+      <a href="#certificates" data-i18n="nav.certificates">Certificates</a>
+      <a href="#goals" data-i18n="nav.goals">Goals</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button data-lang="en" class="lang-switch__btn is-active">EN</button>
+      <button data-lang="ru" class="lang-switch__btn">RU</button>
+      <button data-lang="it" class="lang-switch__btn">IT</button>
+      <button data-lang="fr" class="lang-switch__btn">FR</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero__photo-wrap">
+        <div class="hero__photo-ring"></div>
+        <img src="assets/photo.jpg" alt="Aleksandra Fedoseeva" class="hero__photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="hero__photo-fallback">AF</div>
+      </div>
+      <h1 class="hero__title">
+        <span data-i18n="hero.greeting">Hi, I'm</span>
+        <span class="hero__name">Aleksandra Fedoseeva</span>
+      </h1>
+      <p class="hero__tagline" data-i18n="hero.tagline">Data analyst passionate about turning numbers into insight — and insight into impact.</p>
+      <div class="hero__cta">
+        <a href="#about" class="btn btn--primary" data-i18n="hero.cta_about">Learn more</a>
+        <a href="#contact" class="btn btn--ghost" data-i18n="hero.cta_contact">Get in touch</a>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span data-i18n="hero.scroll">scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section__head">
+        <h2 data-i18n="about.title">About me</h2>
+      </div>
+      <div class="about">
+        <div class="about__text">
+          <p data-i18n="about.body1">Hi! I'm Aleksandra — a data analyst with 3+ years of experience who believes that behind every number lies a story worth telling. I'm passionate about turning complex data into clear, actionable insights, and dedicated to continuously growing my expertise — from programming to managerial craft.</p>
+          <p data-i18n="about.body2">To deepen my path in data analytics, I'm currently pursuing a Master's degree in Applied Economics and Markets at the University of Bologna, while sharpening my hands-on toolkit through additional courses in data visualization with Tableau and data analysis with Python.</p>
+          <p data-i18n="about.body3">I bring a fresh, curious mindset and I learn quickly — energized by new tools, new domains, and new challenges. At heart, I'm a team player: I come alive surrounded by people, exchanging ideas, and building something meaningful together.</p>
+          <p class="about__text-cta" data-i18n="about.body4">There's more to me than fits on a single page — I'd love to tell you the rest.</p>
+        </div>
+        <ul class="about__facts">
+          <li><span class="about__facts-key" data-i18n="about.facts.based">Based in</span><span data-i18n="about.facts.based_value">Bologna, Italy</span></li>
+          <li><span class="about__facts-key" data-i18n="about.facts.citizenship">Citizenship</span><span data-i18n="about.facts.citizenship_value">Kyrgyzstan</span></li>
+          <li><span class="about__facts-key" data-i18n="about.facts.languages">Languages</span><span data-i18n="about.facts.languages_value">RU · EN · TR · IT · FR</span></li>
+          <li><span class="about__facts-key" data-i18n="about.facts.email">Email</span><a href="mailto:aleksandra.fedoseeva2000@gmail.com">aleksandra.fedoseeva2000@gmail.com</a></li>
+          <li><span class="about__facts-key" data-i18n="about.facts.status">Status</span><span data-i18n="about.facts.status_value">Open to opportunities</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section__head">
+        <h2 data-i18n="experience.title">Experience</h2>
+      </div>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date" data-i18n="experience.items.0.date">2025</div>
+          <h3 class="timeline__role" data-i18n="experience.items.0.role">Intern, Department of Statistics and Machine Analysis</h3>
+          <div class="timeline__company" data-i18n="experience.items.0.company">NUR Telecom LLC — Bishkek, Kyrgyzstan</div>
+          <p class="timeline__desc" data-i18n="experience.items.0.desc">
+            Worked with large volumes of telecom data, optimizing data pipelines and improving data quality across the department. Developed a control report on company services in Tableau and contributed to a migration and optimization plan for transitioning corporate reporting to a BI platform.
+          </p>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date" data-i18n="experience.items.1.date">2022 — 2024</div>
+          <h3 class="timeline__role" data-i18n="experience.items.1.role">Data Analyst → Lead Data Analyst</h3>
+          <div class="timeline__company" data-i18n="experience.items.1.company">NUR Telecom LLC — Bishkek, Kyrgyzstan</div>
+          <p class="timeline__desc" data-i18n="experience.items.1.desc">
+            Grew from Data Analyst to Lead Data Analyst over two years, taking on broader responsibility for reporting pipelines, data accuracy, and business performance analysis. Delivered regular forecasts and KPI insights that helped leadership understand key deviations and drive informed decisions.
+          </p>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date" data-i18n="experience.items.2.date">2021 — 2022</div>
+          <h3 class="timeline__role" data-i18n="experience.items.2.role">Market Research Analyst</h3>
+          <div class="timeline__company" data-i18n="experience.items.2.company">M-Vector LLC — Bishkek, Kyrgyzstan</div>
+          <p class="timeline__desc" data-i18n="experience.items.2.desc">
+            Managed the full research cycle — from developing and testing questionnaires to delivering final analytical reports and recommendations to clients. Handled client communication, built project timelines, and worked with databases and visualizations to ensure insights were clearly presented and actionable.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="section__head">
+        <h2 data-i18n="education.title">Education</h2>
+      </div>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date" data-i18n="education.items.0.date">2024 — 2026</div>
+          <h3 class="timeline__role" data-i18n="education.items.0.degree">Master's degree — Applied Economics and Markets</h3>
+          <div class="timeline__company" data-i18n="education.items.0.school">University of Bologna, Italy</div>
+          <p class="timeline__desc" data-i18n="education.items.0.desc">
+            Pursuing advanced studies in applied economics with a strong emphasis on data-driven methods. Developing expertise in econometric modeling, machine learning, and statistical analysis using tools such as STATA, R, Python, and EViews.
+          </p>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__date" data-i18n="education.items.1.date">2018 — 2022</div>
+          <h3 class="timeline__role" data-i18n="education.items.1.degree">Bachelor's degree — Mathematical Methods and Operations Research in Economics</h3>
+          <div class="timeline__company" data-i18n="education.items.1.school">Kyrgyz-Russian Slavic University, Kyrgyzstan</div>
+          <p class="timeline__desc" data-i18n="education.items.1.desc">
+            Studied economics through a strong quantitative lens, with a focus on applied mathematics and data analysis. Gained hands-on experience with tools such as Excel, Access, SPSS, EViews, and MATLAB for statistical modeling, econometric analysis, and data-driven decision-making.
+          </p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section__head">
+        <h2 data-i18n="skills.title">Skills</h2>
+      </div>
+      <div class="skills">
+        <div class="skills__group">
+          <h3 data-i18n="skills.tech">Core tools (daily use)</h3>
+          <div class="skills__tags">
+            <span class="tag">SQL</span>
+            <span class="tag">Tableau</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Power Query</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h3 data-i18n="skills.other">Experienced with</h3>
+          <div class="skills__tags">
+            <span class="tag">Python</span>
+            <span class="tag">R</span>
+            <span class="tag">SPSS</span>
+            <span class="tag">EViews</span>
+            <span class="tag">STATA</span>
+            <span class="tag">MS Access</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h3 data-i18n="skills.languages">Languages</h3>
+          <div class="skills__tags">
+            <span class="tag" data-i18n="skills.lang.ru">Russian — Native</span>
+            <span class="tag" data-i18n="skills.lang.en">English — C1</span>
+            <span class="tag" data-i18n="skills.lang.tr">Turkish — B1</span>
+            <span class="tag" data-i18n="skills.lang.it">Italian — B1</span>
+            <span class="tag" data-i18n="skills.lang.fr">French — A2</span>
+          </div>
+        </div>
+        <div class="skills__group">
+          <h3 data-i18n="skills.softTitle">Soft skills</h3>
+          <div class="skills__tags">
+            <span class="tag" data-i18n="skills.soft.research">Research &amp; analytical skills</span>
+            <span class="tag" data-i18n="skills.soft.analytical">Analytical thinking</span>
+            <span class="tag" data-i18n="skills.soft.communication">Business communication</span>
+            <span class="tag" data-i18n="skills.soft.organization">Organization &amp; planning</span>
+            <span class="tag" data-i18n="skills.soft.time">Time management</span>
+            <span class="tag" data-i18n="skills.soft.problem">Problem solving</span>
+            <span class="tag" data-i18n="skills.soft.responsibility">Responsibility</span>
+            <span class="tag" data-i18n="skills.soft.teamwork">Teamwork</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section">
+      <div class="section__head">
+        <h2 data-i18n="certificates.title">Certificates</h2>
+      </div>
+      <div class="cards">
+        <a href="assets/certificates/udemy_python_bi.pdf" target="_blank" rel="noopener" class="cert-card">
+          <div class="cert-card__issuer">Udemy · Maven Analytics</div>
+          <h3 class="cert-card__title" data-i18n="certificates.items.0.title">Python for Data Analysis &amp; Business Intelligence</h3>
+          <div class="cert-card__meta"><span data-i18n="certificates.items.0.meta">11.5 hours · 2026</span></div>
+        </a>
+        <a href="assets/certificates/karpov_tableau.pdf" target="_blank" rel="noopener" class="cert-card">
+          <div class="cert-card__issuer">Karpov.Courses</div>
+          <h3 class="cert-card__title" data-i18n="certificates.items.1.title">Data Visualization &amp; Advanced Tableau</h3>
+          <div class="cert-card__meta"><span data-i18n="certificates.items.1.meta">3 modules · 100% completion · August 2025</span></div>
+        </a>
+        <a href="assets/certificates/stepik_tableau.pdf" target="_blank" rel="noopener" class="cert-card">
+          <div class="cert-card__issuer">Stepik</div>
+          <h3 class="cert-card__title" data-i18n="certificates.items.2.title">Data Visualization and the Basics of Working in Tableau</h3>
+          <div class="cert-card__meta"><span class="cert-card__badge" data-i18n="certificates.items.2.badge">With distinction</span><span data-i18n="certificates.items.2.meta">March 2024</span></div>
+        </a>
+        <a href="assets/certificates/ipaa_excel.pdf" target="_blank" rel="noopener" class="cert-card">
+          <div class="cert-card__issuer" data-i18n="certificates.items.3.issuer">Institute of Professional Accountants &amp; Auditors of Kyrgyzstan</div>
+          <h3 class="cert-card__title" data-i18n="certificates.items.3.title">Microsoft Excel — Level 3</h3>
+          <div class="cert-card__meta"><span data-i18n="certificates.items.3.meta">27 academic hours · February 2024</span></div>
+        </a>
+        <a href="assets/certificates/unibo_italian_a21.pdf" target="_blank" rel="noopener" class="cert-card">
+          <div class="cert-card__issuer" data-i18n="certificates.items.4.issuer">University of Bologna — Centro Linguistico di Ateneo</div>
+          <h3 class="cert-card__title" data-i18n="certificates.items.4.title">Italian Language — CEFR A2.1</h3>
+          <div class="cert-card__meta"><span data-i18n="certificates.items.4.meta">50 hours · 2024–2025 · Written + oral exam</span></div>
+        </a>
+        <a href="assets/certificates/megalab_oracle_sql.pdf" target="_blank" rel="noopener" class="cert-card">
+          <div class="cert-card__issuer">MEGA Lab</div>
+          <h3 class="cert-card__title" data-i18n="certificates.items.5.title">Oracle SQL</h3>
+          <div class="cert-card__meta"><span data-i18n="certificates.items.5.meta">36 hours · 100% score · November 2023</span></div>
+        </a>
+        <a href="assets/certificates/worldbank_poverty.pdf" target="_blank" rel="noopener" class="cert-card">
+          <div class="cert-card__issuer" data-i18n="certificates.items.6.issuer">World Bank Group · UK Aid</div>
+          <h3 class="cert-card__title" data-i18n="certificates.items.6.title">Poverty and Welfare Analysis</h3>
+          <div class="cert-card__meta"><span data-i18n="certificates.items.6.meta">36 hours · June 2020 · Bishkek</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- GOALS -->
+    <section id="goals" class="section">
+      <div class="section__head">
+        <h2 data-i18n="goals.title">Goals &amp; aspirations</h2>
+      </div>
+      <p class="goals__text" data-i18n="goals.body">
+        I'm looking to grow into roles where I can learn from talented people, work on
+        meaningful problems, and contribute across cultures and languages.
+        I value craft, kindness, and continuous learning.
+      </p>
+      <div class="goals__pills">
+        <span class="pill" data-i18n="goals.pills.0">Build great products</span>
+        <span class="pill" data-i18n="goals.pills.1">Work across cultures</span>
+        <span class="pill" data-i18n="goals.pills.2">Keep learning</span>
+        <span class="pill" data-i18n="goals.pills.3">Make an impact</span>
+      </div>
+    </section>
+
+    <!-- RESUMES -->
+    <section id="resumes" class="section">
+      <div class="section__head">
+        <h2 data-i18n="resumes.title">Download my CV</h2>
+      </div>
+      <div class="resumes">
+        <a href="assets/resume_en.pdf" download class="resume-card">
+          <span class="resume-card__flag">EN</span>
+          <span class="resume-card__label" data-i18n="resumes.en">Resume — English</span>
+        </a>
+        <a href="assets/resume_ru.pdf" download class="resume-card">
+          <span class="resume-card__flag">RU</span>
+          <span class="resume-card__label" data-i18n="resumes.ru">Резюме — Русский</span>
+        </a>
+        <a href="assets/resume_it.pdf" download class="resume-card">
+          <span class="resume-card__flag">IT</span>
+          <span class="resume-card__label" data-i18n="resumes.it">Curriculum — Italiano</span>
+        </a>
+        <a href="assets/resume_fr.pdf" download class="resume-card">
+          <span class="resume-card__flag">FR</span>
+          <span class="resume-card__label" data-i18n="resumes.fr">CV — Français</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--contact">
+      <div class="section__head">
+        <h2 data-i18n="contact.title">Let's connect</h2>
+      </div>
+      <p class="contact__text" data-i18n="contact.body">
+        I'd love to hear from you — whether it's an opportunity, a question, or just hello.
+      </p>
+      <div class="contact__links">
+        <a href="mailto:aleksandra.fedoseeva2000@gmail.com" class="contact__link">
+          <span class="contact__link-icon">@</span>
+          <span>aleksandra.fedoseeva2000@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/aleksandra-fedoseeva-9314aa25a" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__link-icon">in</span>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://t.me/sunsetlova" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__link-icon">✈</span>
+          <span>Telegram</span>
+        </a>
+        <a href="https://github.com/fedoseevaa" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__link-icon">⌘</span>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span data-i18n="footer.made">Designed and built with care.</span>
+    <span>© <span id="year"></span> Aleksandra Fedoseeva</span>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

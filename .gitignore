@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Source/working files that shouldn't be on the public site
+# (split copies are already in assets/certificates/)
+/certificates/
+CV_Aleksandra Fedoseeva_ENG.pdf
+Резюме_Александра Федосеева_RU.pdf
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
