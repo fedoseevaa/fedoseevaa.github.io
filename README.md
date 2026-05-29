@@ -1,4 +1,4 @@
-# Sasha Fedoseeva — Personal Website
+# Aleksandra Fedoseeva — Personal Website
 
 A single-page, multilingual personal portfolio. Pure HTML / CSS / JS — no build step.
 Designed to be deployed on **GitHub Pages**.
