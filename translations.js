@@ -59,13 +59,22 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Certificates",
-      items: [
+      folders: { programming: "Programming", visualization: "Visualization", languages: "Language certificates", other: "Other" },
+      programming: [
         { title: "Python for Data Analysis & Business Intelligence", meta: "11.5 hours · 2026" },
+        { title: "Microsoft Excel — Power Query", meta: "27 academic hours · February 2024", issuer: "Institute of Professional Accountants & Auditors of Kyrgyzstan" },
+        { title: "Oracle SQL", meta: "36 hours · 100% score · November 2023" }
+      ],
+      visualization: [
         { title: "Data Visualization & Advanced Tableau", meta: "3 modules · 100% completion · August 2025" },
-        { title: "Data Visualization and the Basics of Working in Tableau", meta: "March 2024", badge: "With distinction" },
-        { title: "Microsoft Excel — Level 3", meta: "27 academic hours · February 2024", issuer: "Institute of Professional Accountants & Auditors of Kyrgyzstan" },
-        { title: "Italian Language — CEFR A2.1", meta: "50 hours · 2024–2025 · Written + oral exam", issuer: "University of Bologna — Centro Linguistico di Ateneo" },
-        { title: "Oracle SQL", meta: "36 hours · 100% score · November 2023" },
+        { title: "Data Visualization and the Basics of Working in Tableau", meta: "March 2024", badge: "With distinction" }
+      ],
+      languages: [
+        { title: "Italian Language — CEFR B1.1", meta: "50 hours · 2025–2026 · Written + oral exam", issuer: "University of Bologna — Centro Linguistico di Ateneo" },
+        { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · February 2024" },
+        { title: "Italian Language — CEFR A2.1", meta: "50 hours · 2024–2025 · Written + oral exam", issuer: "University of Bologna — Centro Linguistico di Ateneo" }
+      ],
+      other: [
         { title: "Poverty and Welfare Analysis", meta: "36 hours · June 2020 · Bishkek", issuer: "World Bank Group · UK Aid" }
       ]
     },
@@ -143,13 +152,22 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Сертификаты",
-      items: [
+      folders: { programming: "Программирование", visualization: "Визуализация", languages: "Языковые сертификаты", other: "Прочее" },
+      programming: [
         { title: "Python для анализа данных и Business Intelligence", meta: "11.5 часов · 2026" },
+        { title: "Microsoft Excel — Power Query", meta: "27 академических часов · февраль 2024", issuer: "Институт профессиональных бухгалтеров и аудиторов Кыргызстана" },
+        { title: "Oracle SQL", meta: "36 часов · 100% результат · ноябрь 2023" }
+      ],
+      visualization: [
         { title: "Визуализация данных и продвинутый Tableau", meta: "3 модуля · 100% прохождение · август 2025" },
-        { title: "Визуализация данных и основы работы в Tableau", meta: "март 2024", badge: "С отличием" },
-        { title: "Microsoft Excel — уровень 3", meta: "27 академических часов · февраль 2024", issuer: "Институт профессиональных бухгалтеров и аудиторов Кыргызстана" },
-        { title: "Итальянский язык — CEFR A2.1", meta: "50 часов · 2024–2025 · письменный и устный экзамен", issuer: "Болонский университет — Centro Linguistico di Ateneo" },
-        { title: "Oracle SQL", meta: "36 часов · 100% результат · ноябрь 2023" },
+        { title: "Визуализация данных и основы работы в Tableau", meta: "март 2024", badge: "С отличием" }
+      ],
+      languages: [
+        { title: "Итальянский язык — CEFR B1.1", meta: "50 часов · 2025–2026 · письменный и устный экзамен", issuer: "Болонский университет — Centro Linguistico di Ateneo" },
+        { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · февраль 2024" },
+        { title: "Итальянский язык — CEFR A2.1", meta: "50 часов · 2024–2025 · письменный и устный экзамен", issuer: "Болонский университет — Centro Linguistico di Ateneo" }
+      ],
+      other: [
         { title: "Анализ бедности и благосостояния", meta: "36 часов · июнь 2020 · Бишкек", issuer: "Всемирный банк · UK Aid" }
       ]
     },
@@ -227,13 +245,22 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Certificati",
-      items: [
+      folders: { programming: "Programmazione", visualization: "Visualizzazione", languages: "Certificati di lingua", other: "Altri" },
+      programming: [
         { title: "Python per Data Analysis & Business Intelligence", meta: "11,5 ore · 2026" },
+        { title: "Microsoft Excel — Power Query", meta: "27 ore accademiche · febbraio 2024", issuer: "Istituto dei Contabili e Revisori Professionisti del Kirghizistan" },
+        { title: "Oracle SQL", meta: "36 ore · 100% di punteggio · novembre 2023" }
+      ],
+      visualization: [
         { title: "Data Visualization & Advanced Tableau", meta: "3 moduli · 100% completamento · agosto 2025" },
-        { title: "Data Visualization e basi di Tableau", meta: "marzo 2024", badge: "Con distinzione" },
-        { title: "Microsoft Excel — Livello 3", meta: "27 ore accademiche · febbraio 2024", issuer: "Istituto dei Contabili e Revisori Professionisti del Kirghizistan" },
-        { title: "Lingua Italiana — CEFR A2.1", meta: "50 ore · 2024–2025 · esame scritto e orale", issuer: "Università di Bologna — Centro Linguistico di Ateneo" },
-        { title: "Oracle SQL", meta: "36 ore · 100% di punteggio · novembre 2023" },
+        { title: "Data Visualization e basi di Tableau", meta: "marzo 2024", badge: "Con distinzione" }
+      ],
+      languages: [
+        { title: "Lingua Italiana — CEFR B1.1", meta: "50 ore · 2025–2026 · esame scritto e orale", issuer: "Università di Bologna — Centro Linguistico di Ateneo" },
+        { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · febbraio 2024" },
+        { title: "Lingua Italiana — CEFR A2.1", meta: "50 ore · 2024–2025 · esame scritto e orale", issuer: "Università di Bologna — Centro Linguistico di Ateneo" }
+      ],
+      other: [
         { title: "Poverty and Welfare Analysis", meta: "36 ore · giugno 2020 · Bishkek", issuer: "World Bank Group · UK Aid" }
       ]
     },
@@ -311,13 +338,22 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Certificats",
-      items: [
+      folders: { programming: "Programmation", visualization: "Visualisation", languages: "Certificats de langue", other: "Autres" },
+      programming: [
         { title: "Python pour l'analyse de données & Business Intelligence", meta: "11,5 heures · 2026" },
+        { title: "Microsoft Excel — Power Query", meta: "27 heures académiques · février 2024", issuer: "Institut des comptables et auditeurs professionnels du Kirghizistan" },
+        { title: "Oracle SQL", meta: "36 heures · 100% de score · novembre 2023" }
+      ],
+      visualization: [
         { title: "Data Visualization & Advanced Tableau", meta: "3 modules · 100% de réussite · août 2025" },
-        { title: "Visualisation de données et bases de Tableau", meta: "mars 2024", badge: "Avec mention" },
-        { title: "Microsoft Excel — Niveau 3", meta: "27 heures académiques · février 2024", issuer: "Institut des comptables et auditeurs professionnels du Kirghizistan" },
-        { title: "Langue italienne — CECR A2.1", meta: "50 heures · 2024–2025 · examen écrit et oral", issuer: "Université de Bologne — Centro Linguistico di Ateneo" },
-        { title: "Oracle SQL", meta: "36 heures · 100% de score · novembre 2023" },
+        { title: "Visualisation de données et bases de Tableau", meta: "mars 2024", badge: "Avec mention" }
+      ],
+      languages: [
+        { title: "Langue italienne — CECR B1.1", meta: "50 heures · 2025–2026 · examen écrit et oral", issuer: "Université de Bologne — Centro Linguistico di Ateneo" },
+        { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · février 2024" },
+        { title: "Langue italienne — CECR A2.1", meta: "50 heures · 2024–2025 · examen écrit et oral", issuer: "Université de Bologne — Centro Linguistico di Ateneo" }
+      ],
+      other: [
         { title: "Analyse de la pauvreté et du bien-être", meta: "36 heures · juin 2020 · Bichkek", issuer: "Groupe Banque mondiale · UK Aid" }
       ]
     },
