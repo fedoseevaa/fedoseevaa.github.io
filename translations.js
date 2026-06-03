@@ -91,6 +91,11 @@ window.TRANSLATIONS = {
       title: "Let's connect",
       body: "I'd love to hear from you — whether it's an opportunity, a question, or just hello."
     },
+    game: {
+      title: "Take a break",
+      body: "Think you know your world capitals? I built a little quiz — pick the right capital out of four. Give it a try!",
+      cta: "Capitals quiz game"
+    },
     footer: { made: "Designed and built with care." }
   },
 
@@ -183,6 +188,11 @@ window.TRANSLATIONS = {
     contact: {
       title: "Давайте свяжемся",
       body: "Буду рада любому сообщению — будь то возможность, вопрос или просто привет."
+    },
+    game: {
+      title: "Сделай паузу",
+      body: "Думаешь, что хорошо знаешь столицы мира? Я сделала небольшую игру — выбери правильную столицу из четырёх. Попробуй!",
+      cta: "Игра: угадай столицу"
     },
     footer: { made: "Создано с любовью." }
   },
@@ -277,6 +287,11 @@ window.TRANSLATIONS = {
       title: "Mettiamoci in contatto",
       body: "Mi farebbe piacere sentirti — che sia per un'opportunità, una domanda o solo un saluto."
     },
+    game: {
+      title: "Fai una pausa",
+      body: "Pensi di conoscere bene le capitali del mondo? Ho creato un piccolo quiz — scegli la capitale giusta tra quattro. Provaci!",
+      cta: "Gioco: indovina la capitale"
+    },
     footer: { made: "Progettato e realizzato con cura." }
   },
 
@@ -369,6 +384,11 @@ window.TRANSLATIONS = {
     contact: {
       title: "Restons en contact",
       body: "Je serais ravie de vous lire — que ce soit pour une opportunité, une question ou simplement pour dire bonjour."
+    },
+    game: {
+      title: "Fais une pause",
+      body: "Tu penses bien connaître les capitales du monde ? J'ai créé un petit quiz — choisis la bonne capitale parmi quatre. Essaie !",
+      cta: "Jeu : devine la capitale"
     },
     footer: { made: "Conçu et réalisé avec soin." }
   }

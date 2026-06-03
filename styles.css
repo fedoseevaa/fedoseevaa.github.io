@@ -776,6 +776,26 @@ a { color: inherit; text-decoration: none; }
   background-image: linear-gradient(135deg, rgba(236, 72, 153, 0.10), rgba(167, 139, 250, 0.10));
 }
 
+/* GAME */
+.section--game {
+  text-align: center;
+}
+.section--game .section__head {
+  justify-content: center;
+  border-bottom: none;
+  margin-bottom: 1.25rem;
+}
+.game__text {
+  max-width: 620px;
+  margin: 0 auto 2rem;
+  color: var(--text-dim);
+  font-size: 1.05rem;
+}
+.game__cta {
+  font-size: 1.05rem;
+  padding: 1rem 2.25rem;
+}
+
 /* RESUMES */
 .resumes {
   display: grid;
