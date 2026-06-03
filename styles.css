@@ -544,9 +544,10 @@ a { color: inherit; text-decoration: none; }
 .cert-folder__icon {
   position: relative;
   display: inline-block;
-  width: 26px;
-  height: 20px;
+  width: 28px;
+  height: 22px;
   flex-shrink: 0;
+  transition: transform 0.35s var(--ease);
 }
 
 /* CSS-drawn folder shape */
@@ -558,24 +559,95 @@ a { color: inherit; text-decoration: none; }
   border-radius: 3px 3px 4px 4px;
   clip-path: polygon(0 25%, 38% 25%, 48% 0, 100% 0, 100% 100%, 0 100%);
   opacity: 0.9;
+  filter: drop-shadow(0 2px 6px rgba(236, 72, 153, 0.25));
+  transition: opacity 0.3s var(--ease), filter 0.3s var(--ease);
+}
+
+.cert-folder[open] .cert-folder__icon {
+  transform: translateY(-1px) rotate(-4deg);
+  animation: folder-pulse 2.6s ease-in-out infinite;
+}
+
+.cert-folder[open] .cert-folder__icon::before {
+  opacity: 1;
+  filter: drop-shadow(0 4px 14px rgba(236, 72, 153, 0.45));
+}
+
+@keyframes folder-pulse {
+  0%, 100% { transform: translateY(-1px) rotate(-4deg) scale(1); }
+  50%      { transform: translateY(-2px) rotate(-4deg) scale(1.06); }
+}
+
+.cert-folder__head:hover .cert-folder__icon {
+  transform: translateY(-1px) rotate(-3deg) scale(1.05);
 }
 
 .cert-folder__title {
+  position: relative;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--text);
+  font-size: 1.2rem;
+  font-weight: 700;
   flex: 1;
+  letter-spacing: -0.005em;
+  background: linear-gradient(110deg, #ec4899 0%, #c084fc 35%, #a78bfa 60%, #ec4899 100%);
+  background-size: 220% auto;
+  background-position: 0% center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 0.6s var(--ease);
+}
+
+.cert-folder[open] .cert-folder__title {
+  animation: title-shimmer 5s linear infinite;
+}
+
+.cert-folder__head:hover .cert-folder__title {
+  background-position: 100% center;
+}
+
+@keyframes title-shimmer {
+  0%   { background-position: 0% center; }
+  100% { background-position: 220% center; }
+}
+
+/* Animated underline under the title — draws in on hover, stays on open */
+.cert-folder__title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background: var(--gradient);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.45s var(--ease);
+}
+
+.cert-folder__head:hover .cert-folder__title::after,
+.cert-folder[open] .cert-folder__title::after {
+  transform: scaleX(1);
 }
 
 .cert-folder__count {
   font-size: 0.78rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--accent);
   background: rgba(236, 72, 153, 0.1);
-  padding: 0.2rem 0.6rem;
+  padding: 0.25rem 0.7rem;
   border-radius: 999px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  border: 1px solid rgba(236, 72, 153, 0.18);
+  transition: all 0.3s var(--ease);
+}
+
+.cert-folder[open] .cert-folder__count {
+  background: var(--gradient);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 3px 10px rgba(236, 72, 153, 0.3);
 }
 
 .cert-folder__chevron {
