@@ -70,6 +70,7 @@ window.TRANSLATIONS = {
         { title: "Data Visualization and the Basics of Working in Tableau", meta: "March 2024", badge: "With distinction" }
       ],
       languages: [
+        { title: "Italian Language — CEFR B1.3", meta: "50 hours · 2025–2026 · Written + oral exam", issuer: "University of Bologna — Centro Linguistico di Ateneo" },
         { title: "Italian Language — CEFR B1.1", meta: "50 hours · 2025–2026 · Written + oral exam", issuer: "University of Bologna — Centro Linguistico di Ateneo" },
         { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · February 2024" },
         { title: "Italian Language — CEFR A2.1", meta: "50 hours · 2024–2025 · Written + oral exam", issuer: "University of Bologna — Centro Linguistico di Ateneo" }
@@ -168,6 +169,7 @@ window.TRANSLATIONS = {
         { title: "Визуализация данных и основы работы в Tableau", meta: "март 2024", badge: "С отличием" }
       ],
       languages: [
+        { title: "Итальянский язык — CEFR B1.3", meta: "50 часов · 2025–2026 · письменный и устный экзамен", issuer: "Болонский университет — Centro Linguistico di Ateneo" },
         { title: "Итальянский язык — CEFR B1.1", meta: "50 часов · 2025–2026 · письменный и устный экзамен", issuer: "Болонский университет — Centro Linguistico di Ateneo" },
         { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · февраль 2024" },
         { title: "Итальянский язык — CEFR A2.1", meta: "50 часов · 2024–2025 · письменный и устный экзамен", issuer: "Болонский университет — Centro Linguistico di Ateneo" }
@@ -266,6 +268,7 @@ window.TRANSLATIONS = {
         { title: "Data Visualization e basi di Tableau", meta: "marzo 2024", badge: "Con distinzione" }
       ],
       languages: [
+        { title: "Lingua Italiana — CEFR B1.3", meta: "50 ore · 2025–2026 · esame scritto e orale", issuer: "Università di Bologna — Centro Linguistico di Ateneo" },
         { title: "Lingua Italiana — CEFR B1.1", meta: "50 ore · 2025–2026 · esame scritto e orale", issuer: "Università di Bologna — Centro Linguistico di Ateneo" },
         { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · febbraio 2024" },
         { title: "Lingua Italiana — CEFR A2.1", meta: "50 ore · 2024–2025 · esame scritto e orale", issuer: "Università di Bologna — Centro Linguistico di Ateneo" }
@@ -364,6 +367,7 @@ window.TRANSLATIONS = {
         { title: "Visualisation de données et bases de Tableau", meta: "mars 2024", badge: "Avec mention" }
       ],
       languages: [
+        { title: "Langue italienne — CECR B1.3", meta: "50 heures · 2025–2026 · examen écrit et oral", issuer: "Université de Bologne — Centro Linguistico di Ateneo" },
         { title: "Langue italienne — CECR B1.1", meta: "50 heures · 2025–2026 · examen écrit et oral", issuer: "Université de Bologne — Centro Linguistico di Ateneo" },
         { title: "IELTS Academic — Overall 7.0 (CEFR C1)", meta: "Listening 8.0 · Reading 7.5 · Speaking 6.5 · Writing 6.0 · février 2024" },
         { title: "Langue italienne — CECR A2.1", meta: "50 heures · 2024–2025 · examen écrit et oral", issuer: "Université de Bologne — Centro Linguistico di Ateneo" }
