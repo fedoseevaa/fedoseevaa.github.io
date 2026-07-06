@@ -66,6 +66,7 @@ window.TRANSLATIONS = {
         { title: "Oracle SQL", meta: "36 hours · 100% score · November 2023" }
       ],
       visualization: [
+        { title: "Microsoft Power BI Desktop for Business Intelligence", meta: "17 hours · July 2026" },
         { title: "Data Visualization & Advanced Tableau", meta: "3 modules · 100% completion · August 2025" },
         { title: "Data Visualization and the Basics of Working in Tableau", meta: "March 2024", badge: "With distinction" }
       ],
@@ -166,6 +167,7 @@ window.TRANSLATIONS = {
         { title: "Oracle SQL", meta: "36 часов · 100% результат · ноябрь 2023" }
       ],
       visualization: [
+        { title: "Microsoft Power BI Desktop для Business Intelligence", meta: "17 часов · июль 2026" },
         { title: "Визуализация данных и продвинутый Tableau", meta: "3 модуля · 100% прохождение · август 2025" },
         { title: "Визуализация данных и основы работы в Tableau", meta: "март 2024", badge: "С отличием" }
       ],
@@ -266,6 +268,7 @@ window.TRANSLATIONS = {
         { title: "Oracle SQL", meta: "36 ore · 100% di punteggio · novembre 2023" }
       ],
       visualization: [
+        { title: "Microsoft Power BI Desktop per Business Intelligence", meta: "17 ore · luglio 2026" },
         { title: "Data Visualization & Advanced Tableau", meta: "3 moduli · 100% completamento · agosto 2025" },
         { title: "Data Visualization e basi di Tableau", meta: "marzo 2024", badge: "Con distinzione" }
       ],
@@ -366,6 +369,7 @@ window.TRANSLATIONS = {
         { title: "Oracle SQL", meta: "36 heures · 100% de score · novembre 2023" }
       ],
       visualization: [
+        { title: "Microsoft Power BI Desktop pour Business Intelligence", meta: "17 heures · juillet 2026" },
         { title: "Data Visualization & Advanced Tableau", meta: "3 modules · 100% de réussite · août 2025" },
         { title: "Visualisation de données et bases de Tableau", meta: "mars 2024", badge: "Avec mention" }
       ],
