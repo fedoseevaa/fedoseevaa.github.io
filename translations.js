@@ -59,8 +59,9 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Certificates",
-      folders: { programming: "Programming", visualization: "Visualization", languages: "Language certificates", other: "Other" },
+      folders: { programming: "Programming & analytics", visualization: "Visualization", languages: "Language certificates", other: "Other" },
       programming: [
+        { title: "A/B Testing in Python", meta: "3 hours · September 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python for Data Analysis & Business Intelligence", meta: "11.5 hours · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 academic hours · February 2024", issuer: "Institute of Professional Accountants & Auditors of Kyrgyzstan" },
         { title: "Oracle SQL", meta: "36 hours · 100% score · November 2023" }
@@ -160,8 +161,9 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Сертификаты",
-      folders: { programming: "Программирование", visualization: "Визуализация", languages: "Языковые сертификаты", other: "Прочее" },
+      folders: { programming: "Программирование и аналитика", visualization: "Визуализация", languages: "Языковые сертификаты", other: "Прочее" },
       programming: [
+        { title: "A/B-тестирование в Python", meta: "3 часа · сентябрь 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python для анализа данных и Business Intelligence", meta: "11.5 часов · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 академических часов · февраль 2024", issuer: "Институт профессиональных бухгалтеров и аудиторов Кыргызстана" },
         { title: "Oracle SQL", meta: "36 часов · 100% результат · ноябрь 2023" }
@@ -261,8 +263,9 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Certificati",
-      folders: { programming: "Programmazione", visualization: "Visualizzazione", languages: "Certificati di lingua", other: "Altri" },
+      folders: { programming: "Programmazione e analisi", visualization: "Visualizzazione", languages: "Certificati di lingua", other: "Altri" },
       programming: [
+        { title: "A/B Testing in Python", meta: "3 ore · settembre 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python per Data Analysis & Business Intelligence", meta: "11,5 ore · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 ore accademiche · febbraio 2024", issuer: "Istituto dei Contabili e Revisori Professionisti del Kirghizistan" },
         { title: "Oracle SQL", meta: "36 ore · 100% di punteggio · novembre 2023" }
@@ -362,8 +365,9 @@ window.TRANSLATIONS = {
     },
     certificates: {
       title: "Certificats",
-      folders: { programming: "Programmation", visualization: "Visualisation", languages: "Certificats de langue", other: "Autres" },
+      folders: { programming: "Programmation et analytique", visualization: "Visualisation", languages: "Certificats de langue", other: "Autres" },
       programming: [
+        { title: "A/B Testing en Python", meta: "3 heures · septembre 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python pour l'analyse de données & Business Intelligence", meta: "11,5 heures · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 heures académiques · février 2024", issuer: "Institut des comptables et auditeurs professionnels du Kirghizistan" },
         { title: "Oracle SQL", meta: "36 heures · 100% de score · novembre 2023" }
