@@ -5,38 +5,38 @@ window.TRANSLATIONS = {
     nav: { logo: "Aleksandra F.", about: "About", experience: "Experience", education: "Education", projects: "Projects", skills: "Skills", certificates: "Certificates", goals: "Goals", contact: "Contact" },
     hero: {
       greeting: "Hi, I'm",
-      tagline: "Data analyst passionate about turning numbers into insight — and insight into impact.",
+      tagline: "Data analyst. I work with SQL, Tableau, and Excel.",
       cta_about: "Learn more",
       cta_contact: "Get in touch",
       scroll: "scroll"
     },
     about: {
       title: "About me",
-      body1: "Hi! I'm Aleksandra — a data analyst with 3+ years of experience who believes that behind every number lies a story worth telling. I'm passionate about turning complex data into clear, actionable insights, and dedicated to continuously growing my expertise — from programming to managerial craft.",
-      body2: "To deepen my path in data analytics, I'm currently pursuing a Master's degree in Applied Economics and Markets at the University of Bologna, while sharpening my hands-on toolkit through additional courses in data visualization with Tableau and data analysis with Python.",
-      body3: "I bring a fresh, curious mindset and I learn quickly — energized by new tools, new domains, and new challenges. At heart, I'm a team player: I come alive surrounded by people, exchanging ideas, and building something meaningful together.",
-      body4: "There's more to me than fits on a single page — I'd love to tell you the rest.",
+      body1: "I'm a data analyst with over 3 years of experience in telecom and market research. I've prepared reports and forecasts and analyzed business performance.",
+      body2: "In October 2026, I finished my Master's degree in Applied Economics and Markets at the University of Bologna. I also take extra courses, most recently in SQL, A/B testing, and Power BI.",
+      body3: "I pick up new tools quickly and enjoy working in a team.",
+      body4: "If you'd like to know more, just write to me.",
       facts: {
         based: "Based in", based_value: "Bologna, Italy",
         citizenship: "Citizenship", citizenship_value: "Kyrgyzstan",
         languages: "Languages", languages_value: "RU · EN · TR · IT · FR",
         email: "Email",
-        status: "Status", status_value: "Open to opportunities"
+        status: "Status", status_value: "Open to work"
       }
     },
     experience: {
       title: "Experience",
       items: [
-        { date: "2025", role: "Intern, Department of Statistics and Machine Analysis", company: "NUR Telecom LLC — Bishkek, Kyrgyzstan", desc: "Worked with large volumes of telecom data, optimizing data pipelines and improving data quality across the department. Developed a control report on company services in Tableau and contributed to a migration and optimization plan for transitioning corporate reporting to a BI platform." },
-        { date: "2022 — 2024", role: "Data Analyst → Lead Data Analyst", company: "NUR Telecom LLC — Bishkek, Kyrgyzstan", desc: "Grew from Data Analyst to Lead Data Analyst over two years, taking on broader responsibility for reporting pipelines, data accuracy, and business performance analysis. Delivered regular forecasts and KPI insights that helped leadership understand key deviations and drive informed decisions." },
-        { date: "2021 — 2022", role: "Market Research Analyst", company: "M-Vector LLC — Bishkek, Kyrgyzstan", desc: "Managed the full research cycle — from developing and testing questionnaires to delivering final analytical reports and recommendations to clients. Handled client communication, built project timelines, and worked with databases and visualizations to ensure insights were clearly presented and actionable." }
+        { date: "2025", role: "Intern, Department of Statistics and Machine Analysis", company: "NUR Telecom LLC — Bishkek, Kyrgyzstan", desc: "Worked with large volumes of telecom data: optimized data pipelines and improved data quality in the department. Built a control report on company services in Tableau and contributed to the plan for moving corporate reporting to a BI platform." },
+        { date: "2022 — 2024", role: "Data Analyst → Lead Data Analyst", company: "NUR Telecom LLC — Bishkek, Kyrgyzstan", desc: "Went from Data Analyst to Lead Data Analyst in two years. Responsible for reporting pipelines, data accuracy, and business performance analysis. Prepared regular forecasts and KPI reports for management and explained the main deviations." },
+        { date: "2021 — 2022", role: "Market Research Analyst", company: "M-Vector LLC — Bishkek, Kyrgyzstan", desc: "Ran research projects from start to finish: wrote and tested questionnaires, prepared final reports, and gave clients recommendations. Also handled client communication and project timelines, and worked with databases and visualizations." }
       ]
     },
     education: {
       title: "Education",
       items: [
-        { date: "2024 — 2026", degree: "Master's degree — Applied Economics and Markets", school: "University of Bologna, Italy", desc: "Pursuing advanced studies in applied economics with a strong emphasis on data-driven methods. Developing expertise in econometric modeling, machine learning, and statistical analysis using tools such as STATA, R, Python, and EViews." },
-        { date: "2018 — 2022", degree: "Bachelor's degree — Mathematical Methods and Operations Research in Economics", school: "Kyrgyz-Russian Slavic University, Kyrgyzstan", desc: "Studied economics through a strong quantitative lens, with a focus on applied mathematics and data analysis. Gained hands-on experience with tools such as Excel, Access, SPSS, EViews, and MATLAB for statistical modeling, econometric analysis, and data-driven decision-making." }
+        { date: "2024 — 2026", degree: "Master's degree — Applied Economics and Markets", school: "University of Bologna, Italy", desc: "Econometrics, machine learning, and statistical analysis, using STATA, R, Python, and EViews." },
+        { date: "2018 — 2022", degree: "Bachelor's degree — Mathematical Methods and Operations Research in Economics", school: "Kyrgyz-Russian Slavic University, Kyrgyzstan", desc: "Economics with a focus on applied mathematics and data analysis. Used Excel, Access, SPSS, EViews, and MATLAB for statistical modeling and econometric analysis." }
       ]
     },
     projects: {
@@ -91,41 +91,40 @@ window.TRANSLATIONS = {
       ]
     },
     goals: {
-      title: "Goals & aspirations",
-      body: "I'm looking to grow into roles where I can keep learning from talented people, work on meaningful problems, and contribute across cultures and languages. I value craft, kindness, and continuous learning.",
-      pills: ["Build great products with data", "Work across cultures", "Keep learning", "Make a measurable impact"]
+      title: "What I'm looking for",
+      body: "I'm looking for a data analyst or BI analyst role in an international team, with people I can learn from.",
+      pills: ["Data analytics", "Business Intelligence", "International team", "Learning new things"]
     },
     resumes: {
       title: "Download my CV",
       en: "CV — English", ru: "CV — Russian", it: "CV — Italian", fr: "CV — French"
     },
     contact: {
-      title: "Let's connect",
-      body: "I'd love to hear from you — whether it's an opportunity, a question, or just hello."
+      title: "Contact",
+      body: "You can reach me through any of these."
     },
     game: {
       title: "Take a break",
-      body: "Think you know your world capitals? I built a little quiz — pick the right capital out of four. Give it a try!",
+      body: "I made a small quiz on world capitals: pick the right one out of four.",
       cta: "Capitals quiz game"
-    },
-    footer: { made: "Designed and built with care." }
+    }
   },
 
   ru: {
     nav: { logo: "Александра Ф.", about: "Обо мне", experience: "Опыт", education: "Образование", projects: "Проекты", skills: "Навыки", certificates: "Сертификаты", goals: "Цели", contact: "Контакты" },
     hero: {
       greeting: "Привет, я",
-      tagline: "Аналитик данных, влюблённый в то, как числа превращаются в смысл — а смысл в результат.",
+      tagline: "Аналитик данных. Работаю с SQL, Tableau и Excel.",
       cta_about: "Узнать больше",
       cta_contact: "Связаться",
       scroll: "листай"
     },
     about: {
       title: "Обо мне",
-      body1: "Привет! Я Александра — аналитик данных с более чем 3-летним опытом, которая верит, что за каждым числом стоит история, заслуживающая быть рассказанной. Мне нравится превращать сложные данные в ясные, применимые выводы и постоянно расширять свою экспертизу — от программирования до управленческих навыков.",
-      body2: "Чтобы углубить свой путь в аналитике данных, я сейчас получаю степень магистра по специальности «Прикладная экономика и рынки» в Болонском университете, параллельно прокачивая практический инструментарий через дополнительные курсы по визуализации данных в Tableau и анализу данных на Python.",
-      body3: "У меня свежий, любознательный ум, и я быстро учусь — меня вдохновляют новые инструменты, новые сферы и новые вызовы. В душе я командный игрок: я расцветаю, когда окружена людьми, обмениваюсь идеями и создаю что-то значимое вместе.",
-      body4: "Во мне больше, чем умещается на одной странице — буду рада рассказать остальное.",
+      body1: "Я аналитик данных, у меня больше 3 лет опыта в телекоме и маркетинговых исследованиях. Готовила отчёты и прогнозы, анализировала показатели бизнеса.",
+      body2: "В октябре 2026 окончила магистратуру Болонского университета по программе «Прикладная экономика и рынки». Ещё прохожу дополнительные курсы, из последних: SQL, A/B-тестирование и Power BI.",
+      body3: "Быстро осваиваю новые инструменты, и мне нравится работать в команде.",
+      body4: "Если хотите узнать больше, напишите мне.",
       facts: {
         based: "Местоположение", based_value: "Болонья, Италия",
         citizenship: "Гражданство", citizenship_value: "Кыргызстан",
@@ -137,16 +136,16 @@ window.TRANSLATIONS = {
     experience: {
       title: "Опыт",
       items: [
-        { date: "2025", role: "Стажёр отдела статистики и машинного анализа", company: "NUR Telecom LLC — Бишкек, Кыргызстан", desc: "Работала с большими объёмами телеком-данных, оптимизируя пайплайны и улучшая качество данных по всему отделу. Разработала контрольный отчёт по услугам компании в Tableau и участвовала в плане миграции и оптимизации корпоративной отчётности на BI-платформу." },
-        { date: "2022 — 2024", role: "Аналитик данных → Ведущий аналитик данных", company: "NUR Telecom LLC — Бишкек, Кыргызстан", desc: "За два года выросла от аналитика данных до ведущего аналитика, взяв на себя более широкую ответственность за отчётные пайплайны, точность данных и анализ бизнес-показателей. Регулярно готовила прогнозы и KPI-инсайты, помогавшие руководству понимать ключевые отклонения и принимать обоснованные решения." },
-        { date: "2021 — 2022", role: "Аналитик маркетинговых исследований", company: "M-Vector LLC — Бишкек, Кыргызстан", desc: "Управляла полным циклом исследований — от разработки и тестирования анкет до подготовки финальных отчётов и рекомендаций для клиентов. Вела коммуникацию с клиентами, выстраивала графики проектов и работала с базами данных и визуализациями, чтобы выводы были понятными и применимыми." }
+        { date: "2025", role: "Стажёр отдела статистики и машинного анализа", company: "NUR Telecom LLC — Бишкек, Кыргызстан", desc: "Работала с большими объёмами телеком-данных: оптимизировала пайплайны и улучшала качество данных в отделе. Сделала в Tableau контрольный отчёт по услугам компании и участвовала в подготовке плана перехода корпоративной отчётности на BI-платформу." },
+        { date: "2022 — 2024", role: "Аналитик данных → Ведущий аналитик данных", company: "NUR Telecom LLC — Бишкек, Кыргызстан", desc: "За два года выросла от аналитика данных до ведущего аналитика. Отвечала за отчётные пайплайны, точность данных и анализ показателей бизнеса. Регулярно готовила для руководства прогнозы и отчёты по KPI, объясняла основные отклонения." },
+        { date: "2021 — 2022", role: "Аналитик маркетинговых исследований", company: "M-Vector LLC — Бишкек, Кыргызстан", desc: "Вела исследования от начала до конца: составляла и тестировала анкеты, готовила итоговые отчёты и рекомендации для клиентов. Общалась с клиентами, планировала сроки проектов, работала с базами данных и визуализациями." }
       ]
     },
     education: {
       title: "Образование",
       items: [
-        { date: "2024 — 2026", degree: "Магистратура — Прикладная экономика и рынки", school: "Болонский университет, Италия", desc: "Углублённые исследования в области прикладной экономики с акцентом на методы, основанные на данных. Развиваю экспертизу в эконометрическом моделировании, машинном обучении и статистическом анализе с использованием STATA, R, Python и EViews." },
-        { date: "2018 — 2022", degree: "Бакалавриат — Математические методы и исследование операций в экономике", school: "Кыргызско-Российский Славянский Университет, Кыргызстан", desc: "Изучала экономику с сильным количественным уклоном, с фокусом на прикладной математике и анализе данных. Получила практический опыт работы с Excel, Access, SPSS, EViews и MATLAB для статистического моделирования, эконометрического анализа и принятия решений на основе данных." }
+        { date: "2024 — 2026", degree: "Магистратура — Прикладная экономика и рынки", school: "Болонский университет, Италия", desc: "Эконометрика, машинное обучение и статистический анализ в STATA, R, Python и EViews." },
+        { date: "2018 — 2022", degree: "Бакалавриат — Математические методы и исследование операций в экономике", school: "Кыргызско-Российский Славянский Университет, Кыргызстан", desc: "Экономика с упором на прикладную математику и анализ данных. Использовала Excel, Access, SPSS, EViews и MATLAB для статистического моделирования и эконометрического анализа." }
       ]
     },
     projects: {
@@ -201,41 +200,40 @@ window.TRANSLATIONS = {
       ]
     },
     goals: {
-      title: "Цели и стремления",
-      body: "Хочу расти в ролях, где смогу продолжать учиться у талантливых людей, работать над значимыми задачами и вносить вклад на стыке культур и языков. Ценю мастерство, доброту и постоянное развитие.",
-      pills: ["Создавать продукты на основе данных", "Работать межкультурно", "Постоянно учиться", "Создавать измеримый эффект"]
+      title: "Что я ищу",
+      body: "Ищу работу аналитиком данных или BI-аналитиком в международной команде, где есть у кого поучиться.",
+      pills: ["Аналитика данных", "Business Intelligence", "Международная команда", "Узнавать новое"]
     },
     resumes: {
       title: "Скачать резюме",
       en: "Резюме — English", ru: "Резюме — Русский", it: "Резюме — Italiano", fr: "Резюме — Français"
     },
     contact: {
-      title: "Давайте свяжемся",
-      body: "Буду рада любому сообщению — будь то возможность, вопрос или просто привет."
+      title: "Контакты",
+      body: "Со мной можно связаться любым из этих способов."
     },
     game: {
-      title: "Сделай паузу",
-      body: "Думаешь, что хорошо знаешь столицы мира? Я сделала небольшую игру — выбери правильную столицу из четырёх. Попробуй!",
+      title: "Сделайте паузу",
+      body: "Я сделала небольшой квиз про столицы мира: нужно выбрать правильную из четырёх.",
       cta: "Игра: угадай столицу"
-    },
-    footer: { made: "Создано с любовью." }
+    }
   },
 
   it: {
     nav: { logo: "Aleksandra F.", about: "Chi sono", experience: "Esperienza", education: "Formazione", projects: "Progetti", skills: "Competenze", certificates: "Certificati", goals: "Obiettivi", contact: "Contatti" },
     hero: {
       greeting: "Ciao, sono",
-      tagline: "Data analyst con la passione di trasformare i numeri in idee — e le idee in impatto.",
+      tagline: "Data analyst. Lavoro con SQL, Tableau ed Excel.",
       cta_about: "Scopri di più",
       cta_contact: "Contattami",
       scroll: "scorri"
     },
     about: {
       title: "Chi sono",
-      body1: "Ciao! Sono Aleksandra — una data analyst con oltre 3 anni di esperienza, convinta che dietro ogni numero ci sia una storia che merita di essere raccontata. Mi appassiona trasformare dati complessi in intuizioni chiare e concrete, e sono dedicata a far crescere continuamente la mia esperienza — dalla programmazione alle competenze manageriali.",
-      body2: "Per approfondire il mio percorso nella data analytics, sto attualmente conseguendo una laurea magistrale in Applied Economics and Markets all'Università di Bologna, affinando al contempo il mio toolkit pratico con corsi aggiuntivi di data visualization con Tableau e analisi dati con Python.",
-      body3: "Ho una mentalità fresca e curiosa e imparo in fretta — mi entusiasmano i nuovi strumenti, i nuovi ambiti e le nuove sfide. Nel profondo sono una persona di squadra: mi accendo quando sono circondata da persone, scambio idee e costruisco insieme qualcosa di significativo.",
-      body4: "C'è molto di più di me di quanto stia in una sola pagina — mi piacerebbe raccontarti il resto.",
+      body1: "Sono una data analyst con più di 3 anni di esperienza nelle telecomunicazioni e nelle ricerche di mercato. Ho preparato report e previsioni e analizzato i risultati aziendali.",
+      body2: "A ottobre 2026 ho concluso la laurea magistrale in Applied Economics and Markets all'Università di Bologna. Seguo anche corsi extra, gli ultimi su SQL, A/B testing e Power BI.",
+      body3: "Imparo in fretta a usare nuovi strumenti e mi piace lavorare in squadra.",
+      body4: "Se vuoi saperne di più, scrivimi.",
       facts: {
         based: "Vivo a", based_value: "Bologna, Italia",
         citizenship: "Cittadinanza", citizenship_value: "Kirghizistan",
@@ -247,16 +245,16 @@ window.TRANSLATIONS = {
     experience: {
       title: "Esperienza",
       items: [
-        { date: "2025", role: "Tirocinante, Dipartimento di Statistica e Analisi Automatica", company: "NUR Telecom LLC — Bishkek, Kirghizistan", desc: "Ho lavorato con grandi volumi di dati di telecomunicazione, ottimizzando le pipeline e migliorando la qualità dei dati in tutto il dipartimento. Ho sviluppato un report di controllo sui servizi aziendali in Tableau e contribuito a un piano di migrazione e ottimizzazione per il passaggio del reporting aziendale a una piattaforma BI." },
-        { date: "2022 — 2024", role: "Data Analyst → Lead Data Analyst", company: "NUR Telecom LLC — Bishkek, Kirghizistan", desc: "Sono cresciuta da Data Analyst a Lead Data Analyst in due anni, assumendomi maggiori responsabilità su pipeline di reporting, accuratezza dei dati e analisi delle performance aziendali. Ho fornito previsioni regolari e insight sui KPI che hanno aiutato la leadership a comprendere deviazioni chiave e a prendere decisioni informate." },
-        { date: "2021 — 2022", role: "Analista di ricerche di mercato", company: "M-Vector LLC — Bishkek, Kirghizistan", desc: "Ho gestito l'intero ciclo di ricerca — dallo sviluppo e test dei questionari alla consegna di report analitici finali e raccomandazioni ai clienti. Ho curato la comunicazione con i clienti, costruito le tempistiche di progetto e lavorato con database e visualizzazioni affinché gli insight fossero chiari e utilizzabili." }
+        { date: "2025", role: "Tirocinante, Dipartimento di Statistica e Analisi Automatica", company: "NUR Telecom LLC — Bishkek, Kirghizistan", desc: "Ho lavorato con grandi volumi di dati di telecomunicazione: ho ottimizzato le pipeline e migliorato la qualità dei dati nel dipartimento. Ho creato in Tableau un report di controllo sui servizi dell'azienda e ho contribuito al piano per trasferire il reporting aziendale su una piattaforma BI." },
+        { date: "2022 — 2024", role: "Data Analyst → Lead Data Analyst", company: "NUR Telecom LLC — Bishkek, Kirghizistan", desc: "In due anni sono passata da Data Analyst a Lead Data Analyst. Mi occupavo delle pipeline di reporting, dell'accuratezza dei dati e dell'analisi dei risultati aziendali. Preparavo regolarmente previsioni e report sui KPI per la direzione e spiegavo gli scostamenti principali." },
+        { date: "2021 — 2022", role: "Analista di ricerche di mercato", company: "M-Vector LLC — Bishkek, Kirghizistan", desc: "Ho seguito i progetti di ricerca dall'inizio alla fine: ho scritto e testato i questionari, preparato i report finali e dato raccomandazioni ai clienti. Mi occupavo anche della comunicazione con i clienti e delle tempistiche dei progetti, e lavoravo con database e visualizzazioni." }
       ]
     },
     education: {
       title: "Formazione",
       items: [
-        { date: "2024 — 2026", degree: "Laurea Magistrale — Applied Economics and Markets", school: "Università di Bologna, Italia", desc: "Studi avanzati in economia applicata con forte enfasi su metodi data-driven. Sto sviluppando competenze in modellazione econometrica, machine learning e analisi statistica con strumenti come STATA, R, Python ed EViews." },
-        { date: "2018 — 2022", degree: "Laurea Triennale — Metodi Matematici e Ricerca Operativa in Economia", school: "Università Slava Kirghizo-Russa, Kirghizistan", desc: "Ho studiato economia con una forte impostazione quantitativa, focalizzandomi su matematica applicata e analisi dati. Ho acquisito esperienza pratica con Excel, Access, SPSS, EViews e MATLAB per modellazione statistica, analisi econometrica e decisioni basate sui dati." }
+        { date: "2024 — 2026", degree: "Laurea Magistrale — Applied Economics and Markets", school: "Università di Bologna, Italia", desc: "Econometria, machine learning e analisi statistica, con STATA, R, Python ed EViews." },
+        { date: "2018 — 2022", degree: "Laurea Triennale — Metodi Matematici e Ricerca Operativa in Economia", school: "Università Slava Kirghizo-Russa, Kirghizistan", desc: "Economia con un focus su matematica applicata e analisi dei dati. Ho usato Excel, Access, SPSS, EViews e MATLAB per la modellazione statistica e l'analisi econometrica." }
       ]
     },
     projects: {
@@ -311,41 +309,40 @@ window.TRANSLATIONS = {
       ]
     },
     goals: {
-      title: "Obiettivi e aspirazioni",
-      body: "Voglio crescere in contesti dove posso continuare a imparare da persone talentuose, lavorare su problemi significativi e contribuire tra culture e lingue diverse. Apprezzo il mestiere ben fatto, la gentilezza e l'apprendimento continuo.",
-      pills: ["Costruire prodotti basati sui dati", "Lavorare tra culture", "Continuare a imparare", "Avere un impatto misurabile"]
+      title: "Cosa cerco",
+      body: "Cerco un ruolo da data analyst o BI analyst in un team internazionale, con persone da cui posso imparare.",
+      pills: ["Data analytics", "Business Intelligence", "Team internazionale", "Imparare cose nuove"]
     },
     resumes: {
       title: "Scarica il mio CV",
       en: "CV — English", ru: "CV — Русский", it: "CV — Italiano", fr: "CV — Français"
     },
     contact: {
-      title: "Mettiamoci in contatto",
-      body: "Mi farebbe piacere sentirti — che sia per un'opportunità, una domanda o solo un saluto."
+      title: "Contatti",
+      body: "Puoi scrivermi tramite uno di questi contatti."
     },
     game: {
       title: "Fai una pausa",
-      body: "Pensi di conoscere bene le capitali del mondo? Ho creato un piccolo quiz — scegli la capitale giusta tra quattro. Provaci!",
+      body: "Ho creato un piccolo quiz sulle capitali del mondo: scegli quella giusta tra quattro opzioni.",
       cta: "Gioco: indovina la capitale"
-    },
-    footer: { made: "Progettato e realizzato con cura." }
+    }
   },
 
   fr: {
     nav: { logo: "Aleksandra F.", about: "À propos", experience: "Expérience", education: "Formation", projects: "Projets", skills: "Compétences", certificates: "Certificats", goals: "Objectifs", contact: "Contact" },
     hero: {
       greeting: "Bonjour, je suis",
-      tagline: "Data analyst passionnée par l'art de transformer les chiffres en idées — et les idées en impact.",
+      tagline: "Data analyst. Je travaille avec SQL, Tableau et Excel.",
       cta_about: "En savoir plus",
       cta_contact: "Me contacter",
       scroll: "défiler"
     },
     about: {
       title: "À propos de moi",
-      body1: "Bonjour ! Je suis Aleksandra — data analyst avec plus de 3 ans d'expérience, convaincue que derrière chaque chiffre se cache une histoire qui mérite d'être racontée. Je suis passionnée par la transformation de données complexes en insights clairs et actionnables, et je m'attache à élargir continuellement mon expertise — de la programmation aux compétences managériales.",
-      body2: "Pour approfondir mon parcours en data analytics, je prépare actuellement un Master en Applied Economics and Markets à l'Université de Bologne, tout en affûtant ma boîte à outils avec des cours complémentaires en data visualization avec Tableau et en analyse de données avec Python.",
-      body3: "J'ai un esprit frais et curieux et j'apprends vite — je suis stimulée par les nouveaux outils, les nouveaux domaines et les nouveaux défis. Au fond, je suis une joueuse d'équipe : je m'épanouis entourée de personnes, à échanger des idées et à construire ensemble quelque chose qui a du sens.",
-      body4: "Il y a bien plus à découvrir sur moi que ce qui tient sur une page — j'aimerais vous raconter la suite.",
+      body1: "Je suis data analyst, avec plus de 3 ans d'expérience dans les télécoms et les études de marché. J'ai préparé des rapports et des prévisions et analysé les résultats de l'entreprise.",
+      body2: "En octobre 2026, j'ai terminé mon Master Applied Economics and Markets à l'Université de Bologne. Je suis aussi des cours en plus, les derniers sur SQL, l'A/B testing et Power BI.",
+      body3: "J'apprends vite à utiliser de nouveaux outils et j'aime travailler en équipe.",
+      body4: "Si vous voulez en savoir plus, écrivez-moi.",
       facts: {
         based: "Basée à", based_value: "Bologne, Italie",
         citizenship: "Nationalité", citizenship_value: "Kirghizistan",
@@ -357,16 +354,16 @@ window.TRANSLATIONS = {
     experience: {
       title: "Expérience",
       items: [
-        { date: "2025", role: "Stagiaire, Département de Statistiques et d'Analyse Machine", company: "NUR Telecom LLC — Bichkek, Kirghizistan", desc: "Travail sur d'importants volumes de données télécom, optimisation des pipelines et amélioration de la qualité des données à l'échelle du département. Développement d'un rapport de contrôle des services de l'entreprise sous Tableau et contribution à un plan de migration et d'optimisation du reporting d'entreprise vers une plateforme BI." },
-        { date: "2022 — 2024", role: "Data Analyst → Lead Data Analyst", company: "NUR Telecom LLC — Bichkek, Kirghizistan", desc: "Évolution de Data Analyst à Lead Data Analyst en deux ans, avec une responsabilité accrue sur les pipelines de reporting, l'exactitude des données et l'analyse de la performance. Livraison régulière de prévisions et d'insights KPI permettant aux dirigeants de comprendre les écarts clés et de prendre des décisions éclairées." },
-        { date: "2021 — 2022", role: "Analyste études de marché", company: "M-Vector LLC — Bichkek, Kirghizistan", desc: "Gestion du cycle complet de recherche — du développement et test des questionnaires à la remise de rapports analytiques finaux et de recommandations aux clients. Communication client, planification de projet et travail sur bases de données et visualisations pour rendre les insights clairs et actionnables." }
+        { date: "2025", role: "Stagiaire, Département de Statistiques et d'Analyse Machine", company: "NUR Telecom LLC — Bichkek, Kirghizistan", desc: "J'ai travaillé sur de grands volumes de données télécom : j'ai optimisé les pipelines et amélioré la qualité des données du département. J'ai créé sous Tableau un rapport de contrôle sur les services de l'entreprise et j'ai contribué au plan de migration du reporting vers une plateforme BI." },
+        { date: "2022 — 2024", role: "Data Analyst → Lead Data Analyst", company: "NUR Telecom LLC — Bichkek, Kirghizistan", desc: "En deux ans, je suis passée de Data Analyst à Lead Data Analyst. Je m'occupais des pipelines de reporting, de l'exactitude des données et de l'analyse des résultats de l'entreprise. Je préparais régulièrement des prévisions et des rapports KPI pour la direction et j'expliquais les principaux écarts." },
+        { date: "2021 — 2022", role: "Analyste études de marché", company: "M-Vector LLC — Bichkek, Kirghizistan", desc: "J'ai suivi les projets d'étude du début à la fin : rédaction et test des questionnaires, rapports finaux et recommandations aux clients. Je m'occupais aussi de la communication avec les clients et du calendrier des projets, et je travaillais avec des bases de données et des visualisations." }
       ]
     },
     education: {
       title: "Formation",
       items: [
-        { date: "2024 — 2026", degree: "Master — Applied Economics and Markets", school: "Université de Bologne, Italie", desc: "Études avancées en économie appliquée avec un fort accent sur les méthodes orientées données. Développement d'une expertise en modélisation économétrique, machine learning et analyse statistique avec STATA, R, Python et EViews." },
-        { date: "2018 — 2022", degree: "Licence — Méthodes Mathématiques et Recherche Opérationnelle en Économie", school: "Université Slave Kirghize-Russe, Kirghizistan", desc: "Études d'économie avec une approche fortement quantitative, axée sur les mathématiques appliquées et l'analyse de données. Expérience pratique avec Excel, Access, SPSS, EViews et MATLAB pour la modélisation statistique, l'analyse économétrique et la prise de décision basée sur les données." }
+        { date: "2024 — 2026", degree: "Master — Applied Economics and Markets", school: "Université de Bologne, Italie", desc: "Économétrie, machine learning et analyse statistique, avec STATA, R, Python et EViews." },
+        { date: "2018 — 2022", degree: "Licence — Méthodes Mathématiques et Recherche Opérationnelle en Économie", school: "Université Slave Kirghize-Russe, Kirghizistan", desc: "Économie, avec un accent sur les mathématiques appliquées et l'analyse de données. J'ai utilisé Excel, Access, SPSS, EViews et MATLAB pour la modélisation statistique et l'analyse économétrique." }
       ]
     },
     projects: {
@@ -421,23 +418,22 @@ window.TRANSLATIONS = {
       ]
     },
     goals: {
-      title: "Objectifs et aspirations",
-      body: "Je souhaite évoluer dans des rôles où je peux continuer à apprendre auprès de personnes talentueuses, travailler sur des problèmes qui ont du sens et contribuer à travers les cultures et les langues. J'attache de l'importance au métier bien fait, à la bienveillance et à l'apprentissage continu.",
-      pills: ["Créer des produits basés sur les données", "Travailler entre cultures", "Continuer à apprendre", "Avoir un impact mesurable"]
+      title: "Ce que je recherche",
+      body: "Je cherche un poste de data analyst ou de BI analyst dans une équipe internationale, avec des personnes auprès de qui je peux apprendre.",
+      pills: ["Data analytics", "Business Intelligence", "Équipe internationale", "Apprendre de nouvelles choses"]
     },
     resumes: {
       title: "Télécharger mon CV",
       en: "CV — English", ru: "CV — Русский", it: "CV — Italiano", fr: "CV — Français"
     },
     contact: {
-      title: "Restons en contact",
-      body: "Je serais ravie de vous lire — que ce soit pour une opportunité, une question ou simplement pour dire bonjour."
+      title: "Contact",
+      body: "Vous pouvez me joindre par l'un de ces moyens."
     },
     game: {
-      title: "Fais une pause",
-      body: "Tu penses bien connaître les capitales du monde ? J'ai créé un petit quiz — choisis la bonne capitale parmi quatre. Essaie !",
+      title: "Faites une pause",
+      body: "J'ai créé un petit quiz sur les capitales du monde : choisissez la bonne parmi quatre.",
       cta: "Jeu : devine la capitale"
-    },
-    footer: { made: "Conçu et réalisé avec soin." }
+    }
   }
 };
