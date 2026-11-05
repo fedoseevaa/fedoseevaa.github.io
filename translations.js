@@ -5,7 +5,7 @@ window.TRANSLATIONS = {
     nav: { logo: "Aleksandra F.", about: "About", experience: "Experience", education: "Education", projects: "Projects", skills: "Skills", certificates: "Certificates", goals: "Goals", contact: "Contact" },
     hero: {
       greeting: "Hi, I'm",
-      tagline: "Data analyst. I work with SQL, Tableau, and Excel.",
+      tagline: "Data analyst. Open to new opportunities in analytics. I use SQL, Tableau, and Excel, and I'm learning Python and Power BI to keep developing my skills.",
       cta_about: "Learn more",
       cta_contact: "Get in touch",
       scroll: "scroll"
@@ -114,7 +114,7 @@ window.TRANSLATIONS = {
     nav: { logo: "Александра Ф.", about: "Обо мне", experience: "Опыт", education: "Образование", projects: "Проекты", skills: "Навыки", certificates: "Сертификаты", goals: "Цели", contact: "Контакты" },
     hero: {
       greeting: "Привет, я",
-      tagline: "Аналитик данных. Работаю с SQL, Tableau и Excel.",
+      tagline: "Аналитик данных. Открыта к новым возможностям в этой сфере. Работаю с SQL, Tableau и Excel. Изучаю Python и Power BI и продолжаю развивать профессиональные навыки.",
       cta_about: "Узнать больше",
       cta_contact: "Связаться",
       scroll: "листай"
@@ -223,7 +223,7 @@ window.TRANSLATIONS = {
     nav: { logo: "Aleksandra F.", about: "Chi sono", experience: "Esperienza", education: "Formazione", projects: "Progetti", skills: "Competenze", certificates: "Certificati", goals: "Obiettivi", contact: "Contatti" },
     hero: {
       greeting: "Ciao, sono",
-      tagline: "Data analyst. Lavoro con SQL, Tableau ed Excel.",
+      tagline: "Data analyst. Aperta a nuove opportunità nel settore. Uso SQL, Tableau ed Excel e sto imparando Python e Power BI per continuare a sviluppare le mie competenze.",
       cta_about: "Scopri di più",
       cta_contact: "Contattami",
       scroll: "scorri"
@@ -332,7 +332,7 @@ window.TRANSLATIONS = {
     nav: { logo: "Aleksandra F.", about: "À propos", experience: "Expérience", education: "Formation", projects: "Projets", skills: "Compétences", certificates: "Certificats", goals: "Objectifs", contact: "Contact" },
     hero: {
       greeting: "Bonjour, je suis",
-      tagline: "Data analyst. Je travaille avec SQL, Tableau et Excel.",
+      tagline: "Data analyst. Ouverte à de nouvelles opportunités dans ce domaine. J'utilise SQL, Tableau et Excel, et j'apprends Python et Power BI pour continuer à développer mes compétences.",
       cta_about: "En savoir plus",
       cta_contact: "Me contacter",
       scroll: "défiler"
