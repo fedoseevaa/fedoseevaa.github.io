@@ -2,7 +2,7 @@
 // To edit content: change the strings here — markup in index.html does not need to change.
 window.TRANSLATIONS = {
   en: {
-    nav: { logo: "Aleksandra F.", about: "About", experience: "Experience", education: "Education", skills: "Skills", certificates: "Certificates", goals: "Goals", contact: "Contact" },
+    nav: { logo: "Aleksandra F.", about: "About", experience: "Experience", education: "Education", projects: "Projects", skills: "Skills", certificates: "Certificates", goals: "Goals", contact: "Contact" },
     hero: {
       greeting: "Hi, I'm",
       tagline: "Data analyst passionate about turning numbers into insight — and insight into impact.",
@@ -39,6 +39,13 @@ window.TRANSLATIONS = {
         { date: "2018 — 2022", degree: "Bachelor's degree — Mathematical Methods and Operations Research in Economics", school: "Kyrgyz-Russian Slavic University, Kyrgyzstan", desc: "Studied economics through a strong quantitative lens, with a focus on applied mathematics and data analysis. Gained hands-on experience with tools such as Excel, Access, SPSS, EViews, and MATLAB for statistical modeling, econometric analysis, and data-driven decision-making." }
       ]
     },
+    projects: {
+      title: "Projects",
+      cta: "View on GitHub →",
+      items: [
+        { title: "Baseball Data Analysis with SQL", desc: "Analysis of baseball players, schools, and team salaries in MySQL. Final project of a Maven Analytics course." }
+      ]
+    },
     skills: {
       title: "Skills",
       tech: "Core tools (daily use)",
@@ -61,6 +68,7 @@ window.TRANSLATIONS = {
       title: "Certificates",
       folders: { programming: "Programming & analytics", visualization: "Visualization", languages: "Language certificates", other: "Other" },
       programming: [
+        { title: "SQL for Data Analysis: Advanced SQL Querying Techniques", meta: "8.5 hours · November 2026" },
         { title: "A/B Testing in Python", meta: "3 hours · September 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python for Data Analysis & Business Intelligence", meta: "11.5 hours · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 academic hours · February 2024", issuer: "Institute of Professional Accountants & Auditors of Kyrgyzstan" },
@@ -104,7 +112,7 @@ window.TRANSLATIONS = {
   },
 
   ru: {
-    nav: { logo: "Александра Ф.", about: "Обо мне", experience: "Опыт", education: "Образование", skills: "Навыки", certificates: "Сертификаты", goals: "Цели", contact: "Контакты" },
+    nav: { logo: "Александра Ф.", about: "Обо мне", experience: "Опыт", education: "Образование", projects: "Проекты", skills: "Навыки", certificates: "Сертификаты", goals: "Цели", contact: "Контакты" },
     hero: {
       greeting: "Привет, я",
       tagline: "Аналитик данных, влюблённый в то, как числа превращаются в смысл — а смысл в результат.",
@@ -141,6 +149,13 @@ window.TRANSLATIONS = {
         { date: "2018 — 2022", degree: "Бакалавриат — Математические методы и исследование операций в экономике", school: "Кыргызско-Российский Славянский Университет, Кыргызстан", desc: "Изучала экономику с сильным количественным уклоном, с фокусом на прикладной математике и анализе данных. Получила практический опыт работы с Excel, Access, SPSS, EViews и MATLAB для статистического моделирования, эконометрического анализа и принятия решений на основе данных." }
       ]
     },
+    projects: {
+      title: "Проекты",
+      cta: "Смотреть на GitHub →",
+      items: [
+        { title: "Анализ бейсбольных данных на SQL", desc: "Анализ данных об игроках в бейсбол, школах и зарплатах в командах на MySQL. Финальный проект курса Maven Analytics." }
+      ]
+    },
     skills: {
       title: "Навыки",
       tech: "Основные инструменты (ежедневно)",
@@ -163,6 +178,7 @@ window.TRANSLATIONS = {
       title: "Сертификаты",
       folders: { programming: "Программирование и аналитика", visualization: "Визуализация", languages: "Языковые сертификаты", other: "Прочее" },
       programming: [
+        { title: "SQL для анализа данных: продвинутые техники запросов", meta: "8.5 часов · ноябрь 2026" },
         { title: "A/B-тестирование в Python", meta: "3 часа · сентябрь 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python для анализа данных и Business Intelligence", meta: "11.5 часов · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 академических часов · февраль 2024", issuer: "Институт профессиональных бухгалтеров и аудиторов Кыргызстана" },
@@ -206,7 +222,7 @@ window.TRANSLATIONS = {
   },
 
   it: {
-    nav: { logo: "Aleksandra F.", about: "Chi sono", experience: "Esperienza", education: "Formazione", skills: "Competenze", certificates: "Certificati", goals: "Obiettivi", contact: "Contatti" },
+    nav: { logo: "Aleksandra F.", about: "Chi sono", experience: "Esperienza", education: "Formazione", projects: "Progetti", skills: "Competenze", certificates: "Certificati", goals: "Obiettivi", contact: "Contatti" },
     hero: {
       greeting: "Ciao, sono",
       tagline: "Data analyst con la passione di trasformare i numeri in idee — e le idee in impatto.",
@@ -243,6 +259,13 @@ window.TRANSLATIONS = {
         { date: "2018 — 2022", degree: "Laurea Triennale — Metodi Matematici e Ricerca Operativa in Economia", school: "Università Slava Kirghizo-Russa, Kirghizistan", desc: "Ho studiato economia con una forte impostazione quantitativa, focalizzandomi su matematica applicata e analisi dati. Ho acquisito esperienza pratica con Excel, Access, SPSS, EViews e MATLAB per modellazione statistica, analisi econometrica e decisioni basate sui dati." }
       ]
     },
+    projects: {
+      title: "Progetti",
+      cta: "Vedi su GitHub →",
+      items: [
+        { title: "Analisi di dati sul baseball con SQL", desc: "Analisi di giocatori di baseball, scuole e stipendi delle squadre in MySQL. Progetto finale di un corso di Maven Analytics." }
+      ]
+    },
     skills: {
       title: "Competenze",
       tech: "Strumenti principali (uso quotidiano)",
@@ -265,6 +288,7 @@ window.TRANSLATIONS = {
       title: "Certificati",
       folders: { programming: "Programmazione e analisi", visualization: "Visualizzazione", languages: "Certificati di lingua", other: "Altri" },
       programming: [
+        { title: "SQL per l'analisi dei dati: tecniche avanzate di query", meta: "8,5 ore · novembre 2026" },
         { title: "A/B Testing in Python", meta: "3 ore · settembre 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python per Data Analysis & Business Intelligence", meta: "11,5 ore · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 ore accademiche · febbraio 2024", issuer: "Istituto dei Contabili e Revisori Professionisti del Kirghizistan" },
@@ -308,7 +332,7 @@ window.TRANSLATIONS = {
   },
 
   fr: {
-    nav: { logo: "Aleksandra F.", about: "À propos", experience: "Expérience", education: "Formation", skills: "Compétences", certificates: "Certificats", goals: "Objectifs", contact: "Contact" },
+    nav: { logo: "Aleksandra F.", about: "À propos", experience: "Expérience", education: "Formation", projects: "Projets", skills: "Compétences", certificates: "Certificats", goals: "Objectifs", contact: "Contact" },
     hero: {
       greeting: "Bonjour, je suis",
       tagline: "Data analyst passionnée par l'art de transformer les chiffres en idées — et les idées en impact.",
@@ -345,6 +369,13 @@ window.TRANSLATIONS = {
         { date: "2018 — 2022", degree: "Licence — Méthodes Mathématiques et Recherche Opérationnelle en Économie", school: "Université Slave Kirghize-Russe, Kirghizistan", desc: "Études d'économie avec une approche fortement quantitative, axée sur les mathématiques appliquées et l'analyse de données. Expérience pratique avec Excel, Access, SPSS, EViews et MATLAB pour la modélisation statistique, l'analyse économétrique et la prise de décision basée sur les données." }
       ]
     },
+    projects: {
+      title: "Projets",
+      cta: "Voir sur GitHub →",
+      items: [
+        { title: "Analyse de données de baseball avec SQL", desc: "Analyse des joueurs de baseball, des écoles et des salaires des équipes avec MySQL. Projet final d'un cours de Maven Analytics." }
+      ]
+    },
     skills: {
       title: "Compétences",
       tech: "Outils principaux (usage quotidien)",
@@ -367,6 +398,7 @@ window.TRANSLATIONS = {
       title: "Certificats",
       folders: { programming: "Programmation et analytique", visualization: "Visualisation", languages: "Certificats de langue", other: "Autres" },
       programming: [
+        { title: "SQL pour l'analyse de données : techniques avancées de requêtes", meta: "8,5 heures · novembre 2026" },
         { title: "A/B Testing en Python", meta: "3 heures · septembre 2026", issuer: "Udemy · 365 Careers" },
         { title: "Python pour l'analyse de données & Business Intelligence", meta: "11,5 heures · 2026" },
         { title: "Microsoft Excel — Power Query", meta: "27 heures académiques · février 2024", issuer: "Institut des comptables et auditeurs professionnels du Kirghizistan" },

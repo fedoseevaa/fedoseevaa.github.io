@@ -750,6 +750,32 @@ a { color: inherit; text-decoration: none; }
   text-transform: uppercase;
 }
 
+/* PROJECTS */
+.project-card {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.project-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.project-card__title { font-size: 1.25rem; }
+
+.project-card__desc { color: var(--text-dim); }
+
+.project-card__cta {
+  flex-shrink: 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--accent);
+}
+
 /* GOALS */
 .goals__text {
   font-size: 1.1rem;
@@ -930,6 +956,7 @@ a { color: inherit; text-decoration: none; }
   .nav { padding: 0.75rem 1rem; gap: 0.75rem; }
   .nav__links { display: none; }
   .about { grid-template-columns: 1fr; gap: 2rem; }
+  .project-card { flex-direction: column; align-items: flex-start; gap: 1.25rem; }
   .section { padding: 4rem 1.25rem; }
   .hero { padding-top: 6rem; }
 }
